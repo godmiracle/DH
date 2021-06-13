@@ -62,7 +62,7 @@ window.onbeforeunload = () => {
     console.log('页面要关闭了')
     // 把对象变成字符串
     const string = JSON.stringify(hashMap)
-    // localStorage.setItem('x', string)
+    localStorage.setItem('x', string)
 }
 $(document).on('keypress',(e)=>{
     const {key} = e

@@ -185,7 +185,8 @@ render();
 window.onbeforeunload = function () {
   console.log('页面要关闭了'); // 把对象变成字符串
 
-  var string = JSON.stringify(hashMap); // localStorage.setItem('x', string)
+  var string = JSON.stringify(hashMap);
+  localStorage.setItem('x', string);
 };
 
 $(document).on('keypress', function (e) {
@@ -198,4 +199,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.8b16289c.js.map
+//# sourceMappingURL=main.c66a7a1c.js.map
