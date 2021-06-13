@@ -4,7 +4,10 @@ const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 const hashMap = xObject || [
     {logo: "A", url: "https://www.acfun.cn/"},
-    {logo: 'B', url: 'https://www.bilibili.com/'}
+    {logo: 'B', url: 'https://www.bilibili.com/'},
+    {logo: 'C', url: 'https://csstriggers.com/'},
+    {logo: 'D', url: 'https://deerchao.cn/tutorials/regex/regex.htm'},
+    {logo: 'E', url: 'https://es6.ruanyifeng.com/#README'}
 ]
 const simplifyUrl = (url) => {
     return url.replace('https://', '').replace('www.', '').replace(/\/.*/, '').replace('http://', '')
@@ -58,7 +61,7 @@ window.onbeforeunload = () => {
     console.log('页面要关闭了')
     // 把对象变成字符串
     const string = JSON.stringify(hashMap)
-    localStorage.setItem('x', string)
+    // localStorage.setItem('x', string)
 }
 $(document).on('keypress',(e)=>{
     const {key} = e
