@@ -7,7 +7,8 @@ const hashMap = xObject || [
     {logo: 'B', url: 'https://www.bilibili.com/'},
     {logo: 'C', url: 'https://csstriggers.com/'},
     {logo: 'D', url: 'https://deerchao.cn/tutorials/regex/regex.htm'},
-    {logo: 'E', url: 'https://es6.ruanyifeng.com/#README'}
+    {logo: 'E', url: 'https://es6.ruanyifeng.com/#README'},
+    {logo: 'F', url: 'https://fangyinghang.com/'}
 ]
 const simplifyUrl = (url) => {
     return url.replace('https://', '').replace('www.', '').replace(/\/.*/, '').replace('http://', '')

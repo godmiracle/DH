@@ -137,6 +137,9 @@ var hashMap = xObject || [{
 }, {
   logo: 'E',
   url: 'https://es6.ruanyifeng.com/#README'
+}, {
+  logo: 'F',
+  url: 'https://fangyinghang.com/'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -195,4 +198,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.e809d5a8.js.map
+//# sourceMappingURL=main.8b16289c.js.map
